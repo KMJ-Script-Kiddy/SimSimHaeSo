@@ -4,7 +4,7 @@ import os
 
 try:
     for i in range(3):
-        target = "172.30.1.255"
+        target = ""
         response_time = ping(target, unit='ms')
 
         if response_time != 0:
